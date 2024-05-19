@@ -84,14 +84,10 @@ prg_passes(df_comp_prg_home, df_uncomp_prg_home, df_comp_prg_away, df_uncomp_prg
 
 To better illustrate the steps, you can include screenshots of the outputs after each significant step. This will help users understand the intermediate results and the final visualizations.
 
-1. **Initial Data Extraction:**
-   - ![Player Data](images/player_data.png)
-   - ![Pass Data](images/pass_data.png)
-
-2. **Pass Network Visualization:**
+1. **Pass Network Visualization:**
    - ![Pass Network](Scrapelytix/Figure_1.png)
 
-3. **Progressive Passes Visualization:**
+2. **Progressive Passes Visualization:**
    - ![Progressive Passes](Scrapelytix/Figure_2.png)
 
 ### Conclusion
