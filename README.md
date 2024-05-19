@@ -89,10 +89,10 @@ To better illustrate the steps, you can include screenshots of the outputs after
    - ![Pass Data](images/pass_data.png)
 
 2. **Pass Network Visualization:**
-   - ![Pass Network](images/pass_network.png)
+   - ![Pass Network](Scrapelytix/Figure_1.png)
 
 3. **Progressive Passes Visualization:**
-   - ![Progressive Passes](Scrapelytix/Figure_1.png)
+   - ![Progressive Passes](Scrapelytix/Figure_2.png)
 
 ### Conclusion
 
