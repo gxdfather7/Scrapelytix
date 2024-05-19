@@ -7,8 +7,8 @@ setuptools.setup(
     description="A package to allow analyzing soccer event data easily",
     long_description = pathlib.Path("README.md").read_text(),
     long_description_content_type="text/markdown",
-    author="Soham Basu",
-    author_email="basusoham034@gmail.com",
+    author="Soham Basu, Debrup Mitra",
+    author_email="basusoham034@gmail.com, 30debrup@gmail.com",
     license="Unlicensed",
     classifiers=[
         "Development Status :: 3 - Alpha",  # Change this according to your needs
