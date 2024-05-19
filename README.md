@@ -28,7 +28,7 @@ Prompt the User for the URL:
 url = input("Enter the URL for pass data: ")
 url_shots = 'https://api.sofascore.com/api/v1/event/11352376/shotmap'
 HEADERS = {
-    'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    'User-Agent': "your USER-AGENT",
     'Referer': "https://www.whoscored.com/",
     'Accept-Language': "en-US,en;q=0.5",
     'Accept-Encoding': "gzip, deflate, br",
