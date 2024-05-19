@@ -1,4 +1,4 @@
-# scrapelytix
+# Scrapelytix
 Welcome to Scrapelytix! This package allows you to scrape football event data and visualize various metrics like pass-maps, progressive passes, shot-maps. We will show you how to scrape whoscored, sofascore and fbref to gather data in the first place.
 
 ## Installation
@@ -102,7 +102,7 @@ Feel free to explore the package and provide feedback or contributions on GitHub
 
 ### Contribution
 
-Contributions are welcome! If you find any issues or have suggestions, please open an issue or create a pull request on the [GitHub repository](https://github.com/yourusername/scrapelytix).
+Contributions are welcome! If you find any issues or have suggestions, please open an issue or create a pull request on the [GitHub repository](https://github.com/gxdfather7/Scrapelytix).
 
 ### License
 
