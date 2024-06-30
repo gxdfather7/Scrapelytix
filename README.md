@@ -19,22 +19,22 @@ import json
 import pandas as pd
 import requests
 import numpy as np
-from Datawiz.extraction import pass_data, player_data
-from Datawiz.filter import analyze_passes, analyze_shots
-from Datawiz.plot import pass_network, prg_passes, shot_map
+from Scrapelytix.extraction import pass_data, player_data
+from Scrapelytix.filter import analyze_passes, analyze_shots
+from Scrapelytix.plot import pass_network, prg_passes, shot_map
 ```
 Prompt the User for the URL:
 ```
-url = input("Enter the URL for pass data: ")
-url_shots = 'https://api.sofascore.com/api/v1/event/11352376/shotmap'
+url = input("Enter the URL for event data: ")
+url_shots = 'https://api.sofascore.com/api/v1/event/11352376/shotmap'  
 HEADERS = {
-    'User-Agent': "your USER-AGENT",
-    'Referer': "https://www.whoscored.com/",
-    'Accept-Language': "en-US,en;q=0.5",
-    'Accept-Encoding': "gzip, deflate, br",
-    'Connection': "keep-alive",
-    'Upgrade-Insecure-Requests': "1",
-    'TE': "Trailers"
+'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+'Referer': "https://www.whoscored.com/",
+'Accept-Language': "en-US,en;q=0.5",
+'Accept-Encoding': "gzip, deflate, br",
+'Connection': "keep-alive",
+'Upgrade-Insecure-Requests': "1",
+'TE': "Trailers"
 }
 ```
 Extract Player and Pass Data:
@@ -48,7 +48,7 @@ Analyze Passes:
 # Extracting team ids
 team_ids = df_passes['teamId'].unique()
 
-# Defining home and away colors for each team
+# Defining home and away colours for each team
 home_colors = ['#FF0000', '#0000FF']  # Example colors (replace with actual colors)
 away_colors = ['#FFFFFF', '#FFFFFF']  # Example colors (replace with actual colors)
 
