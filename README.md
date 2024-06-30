@@ -3,11 +3,11 @@ Welcome to Scrapelytix! This package allows you to scrape football event data an
 
 ## Installation
 First, install the package using pip:
-`pip install scrapelytix`
+`pip install Scrapelytix`
 
 ## Usage Guide
 ### Step 1: Prepare the Data
-To use Scrapelytix, you need to provide the URL of the match scorecard from the match center you want to scrape and your User-Agent.
+To use Scrapelytix, you must provide the match scorecard URL from the match you want to scrape and your User-Agent.
 
 ### Step 2: Scrape the Data
 Here's a step-by-step guide to using Scrapelytix:
