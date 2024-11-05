@@ -100,6 +100,5 @@ Feel free to explore the package and provide feedback or contributions on GitHub
 
 Contributions are welcome! If you find any issues or have suggestions, please open an issue or create a pull request on the [GitHub repository](https://github.com/gxdfather7/Scrapelytix).
 
-### License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
